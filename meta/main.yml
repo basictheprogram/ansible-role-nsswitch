@@ -1,10 +1,11 @@
 ---
+dependencies: []
 
 galaxy_info:
+  author: basictheprogram
   role_name: nsswitch
-  author: Christian Krause
   description: 'Name Service Switch'
-  company: German Centre for Integrative Biodiversity Research (iDiv)
+  company: Real Time Enterprises, Inc.
   license: MIT
   min_ansible_version: 2.4
 
@@ -13,8 +14,13 @@ galaxy_info:
     - name: EL
       versions:
         - 7
+    - name: Ubuntu
+      versions:
+        - focal
 
   galaxy_tags:
+    - linux
     - nsswitch
+    - ubuntu
 
 ...
