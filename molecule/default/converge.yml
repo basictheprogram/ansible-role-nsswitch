@@ -4,6 +4,7 @@
   become: true
 
   vars:
+    nsswitch_hosts: [files, wins, dns]
 
   pre_tasks:
     - name: PRE-TASK update apt cache
