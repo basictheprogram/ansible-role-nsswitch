@@ -67,7 +67,7 @@ hosts:      files dns
 #protocols:  nisplus [NOTFOUND=return] files
 #rpc:        nisplus [NOTFOUND=return] files
 #ethers:     nisplus [NOTFOUND=return] files
-#netmasks:   nisplus [NOTFOUND=return] files     
+#netmasks:   nisplus [NOTFOUND=return] files
 
 {% if nsswitch_bootparams is defined %}
 bootparams: {{ nsswitch_bootparams | join(' ') }}
